@@ -1,0 +1,45 @@
+container {
+    position: relative;
+    overflow: hidden;
+  }
+
+.top-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: top 0,5 ease;
+  }
+
+.bottom-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+.container:hover .top-image {
+    top: 100px; /* Desplaza la imagen superior hacia abajo */
+} 
+
+
+
+.image-container {
+    position: relative;
+    width: 300px;  /* Ajusta al tamaño de tus imágenes */
+    height: 200px; /* Ajusta al tamaño de tus imágenes */
+    float: left; /* Para alinear los contenedores horizontalmente */
+    margin-right: 10px; /* Espacio entre contenedores */
+}
+
+.image-container img {
+    position: absolute;
+    width: 100%;
+    transition: transform 5s ease;
+}
+
+.top-image {
+    z-index: 10;
+}
+
+.image-container:hover .top-image {
+    transform: translateY(100%);
+}

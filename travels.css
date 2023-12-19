@@ -1,0 +1,120 @@
+body{
+    background: radial-gradient(circle, #ffc0cb, #ffdab9);
+   
+}
+
+a{
+    color: black;
+}
+
+
+h3{
+    color: yellowgreen;
+    text-align: center;
+}
+
+#cerdeña{
+    color:black;
+    text-decoration: underline;
+}
+
+#menorca{
+    color: black;
+    text-decoration: underline;
+}
+
+.uk{
+    color: black;
+    text-decoration: underline;
+}
+
+.bournemouthfoto{
+    float: center;
+    margin: 7px;
+}
+
+.cerdeñafoto{
+    float: center;
+    margin: 7px;
+}
+
+.frankfurtfoto{
+    float: center;
+    margin: 7px;
+}
+
+.londonfoto{
+    float: center;
+    margin: 7px;
+}
+
+.minork{
+    float: center;
+    margin: 7px;
+}
+
+.song{
+    float: center;
+}
+
+.colgandoentusmanos{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+}
+
+
+
+.malova{
+    text-align: center;
+}
+
+.ita{
+    color: black;
+text-align: center;
+font-size: 60px;
+text-decoration: underline;
+}
+
+
+#index{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.index1{
+    text-decoration: none;
+}
+
+.soon{
+    float: right;
+    width: 50%;
+    height: 150px;
+}
+
+.done{
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+
+#soontravel{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#donetravel{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
